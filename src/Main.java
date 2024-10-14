@@ -32,9 +32,9 @@ public class Main {
             System.out.print(" " + number);
         }
         System.out.println("\n\n------------------------Задание №7---------------------------");
-        System.out.println("Вывести в консоль последовательность чисел от 2 до 512 с шагом умножение на 2");
+        System.out.println("Вывести в консоль последовательность чисел от 1 до 512 с шагом умножение на 2");
         System.out.print("последовательность чисел: ");
-        for (short number = 2; number <= 512; number =(short) (number * 2)) {
+        for (short number = 1; number <= 512; number =(short) (number * 2)) {
             System.out.print(" " + number);
         }
         System.out.println("\n\n------------------------Задание №8---------------------------");
