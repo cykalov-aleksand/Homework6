@@ -43,7 +43,7 @@ public class Main {
         System.out.println("Вывести в консоль ежемесячное накопление в течении года, если каждый месяц откладывать по " + salary + " руб.");
         for (byte i = 1; i <= 12; i++) {
             total = total + salary;
-            System.out.println("Месяц " + i + " ,сумма накоплений равна " + total+" руб.");
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total+" руб.");
         }
         System.out.println("\n------------------------Задание №9---------------------------");
         total = 0f;
@@ -53,7 +53,7 @@ public class Main {
         byte numberMonths=12;
         for (byte i = 1; i <= 12; i++) {
             total = total + (salary + (salary * percentageDeposit / (numberMonths * 100f)));
-            System.out.println("Месяц " + i + " ,сумма накоплений равна " + total+" руб.");
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total+" руб.");
         }
         System.out.println("\n------------------------Задание №10---------------------------");
         System.out.println("Таблица умножения на 2");
